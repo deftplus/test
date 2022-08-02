@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86dc775f-26be-4baf-bfa8-02f769edf5df">
+  <producedTypes>
+    <objectType typeId="9f2a4991-322f-4c00-a65b-c971b92fa25f" valueTypeId="e055970d-8621-420e-bf88-8e8aadb8136c"/>
+  </producedTypes>
+  <name>ЗагрузкаТекстовыйОбмен_РС_в_1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка текстовый обмен РС в 1С</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="93e4a3e6-7040-4f00-958b-fe0f346d287e"/>
+  <defaultForm>ExternalDataProcessor.ЗагрузкаТекстовыйОбмен_РС_в_1С.Form.Форма</defaultForm>
+  <attributes uuid="3e0921ff-e770-4b9f-ada2-5f4c33158f04">
+    <name>ДатаПоследнегоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7be73953-c31e-4f5c-91dc-6e86207c9376">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5638447-e3db-44a2-b049-8d62ebc069f0">
+    <name>НастройкиФоновойЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки фоновой загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
